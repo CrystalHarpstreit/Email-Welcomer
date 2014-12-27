@@ -32,3 +32,17 @@ body, html {
   font-family: sans-serif;
   text-align: center;
 }
+
+.btn {
+  position: fixed;
+  left: 80px;
+  top: 640px;
+  width: 90px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: orangered;
+  background-color: #ccc;
+  border: 1px solid #999;
+}
