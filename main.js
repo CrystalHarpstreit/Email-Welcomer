@@ -6,6 +6,11 @@ function myTime() {
   var hours = date.getHours();
   var minutes = date.getMinutes();
 
+  if (minutes < 10) {
+    minutes = '0' + minutes;
+    console.log(minutes);
+  }
+
   if (hours < 12) {
     document.querySelector('.time').innerHTML = '' + hours + ':' + minutes;
   } else {
