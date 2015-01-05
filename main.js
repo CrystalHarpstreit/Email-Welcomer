@@ -26,9 +26,9 @@ myTime();
 function imageChanger() {
   if (hours >= 6 && hours <= 12) {
 
-    container.style.backgroundImage = 'url(images/sunrise.png)';
+    container.style.backgroundImage = 'url(images/rising.png)';
 
-  } else if (hours >= 12 && hours <= 18) {
+  } else if (hours > 12 && hours <= 18) {
 
     container.style.backgroundImage = 'url(images/sunset.png)';
 
