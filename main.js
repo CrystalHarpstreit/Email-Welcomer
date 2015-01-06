@@ -1,9 +1,13 @@
-//if certain time of day, display certain picture.
+//if certain time of day, display specific image.
 var container = document.querySelector('.container');
 var date = new Date();
 var hours = date.getHours();
 
 function myTime() {
+  var container = document.querySelector('.container');
+  var date = new Date();
+  var hours = date.getHours();
+
   var minutes = date.getMinutes();
 
   if (minutes < 10) {
@@ -24,6 +28,11 @@ function myTime() {
 myTime();
 
 function imageChanger() {
+
+  var container = document.querySelector('.container');
+  var date = new Date();
+  var hours = date.getHours();
+
   if (hours >= 6 && hours <= 12) {
 
     container.style.backgroundImage = 'url(images/rising.png)';
